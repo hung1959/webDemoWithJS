@@ -1,0 +1,56 @@
+.head{
+    background-color: #2B3494;
+    height: 30px;
+    width: 100%;
+}
+.department{
+    background-color: #2B3494;
+    color: white;
+    width: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    float: left;
+    height: 360px;
+}
+.department_text{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+.logo{
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: none;
+}
+#quanlyhs_btn{
+    float: right;
+    margin-left: 40px;
+    width: 150px;
+    height: 30px;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: none;
+}
+#quanlyhs_btn:hover{
+    background-color: gray;
+    color: white;
+}
+.carousel-caption{
+    text-align: left;
+    background-color: black;
+    opacity: 0.7;
+}
+.back-to-top {
+    position: fixed;
+    top: auto;
+    left: auto;
+    right: 15px;
+    bottom: 15px;
+    font-size: 32px;
+    opacity: 0.8;
+    z-index: 9999;
+    cursor: pointer;
+}
+.back-to-top:hover {
+    opacity: 1;
+}

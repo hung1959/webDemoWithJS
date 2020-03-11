@@ -1,0 +1,30 @@
+body{
+    padding-top: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.add_btn{
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.add_btn:hover{
+    background-color: gray;
+    color: white;
+}
+#student_table{
+    margin-top: 20px;
+}
+.delete_btn{
+    border: 1px solid black;
+    margin-top: 30px;
+}
+.delete_btn:hover{
+    background-color: gray;
+    color: white;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Danh sách sinh viên</title>
+	<link rel="stylesheet" href="list_students.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<center><h2>Students list</h2>
+	<form>
+		<input type="text" id="id" placeholder="ID">
+		<input type="text" id="name" placeholder="Student Name">
+		<input type="text" id="age" placeholder="Age">
+		<input type="text" id="email" placeholder="Email">
+		<input type="text" id="phone" placeholder="Phone Number">
+		<input type="button" class="add_btn" value="Add Student"></input>
+	</form>
+	<div></div>
+	<table  style="width:50%">
+		<thead>
+			<tr>
+				<th>Select</th>
+				<th>ID</th>
+				<th>Student Name</th>
+				<th>Age</th>
+				<th>Email</th>
+				<th>Phone number</th>
+			</tr>
+		</thead>
+		<tbody id="student_table">
+			<tr>
+				<td><input type="checkbox" name="record"></td>
+				<td>12</td>
+				<td>abac</td>
+				<td>12</td>
+				<td>abs</td>
+				<td>2215615</td>
+			</tr>
+		</tbody>
+	</table></center>
+	<center><button type="button" class="delete_btn">Delete Selected</button></center>
+	<script src="list_students.js"></script>
+	<script src="add&delete_btn.js"></script>
+	<script src="jquery.min.js"></script>
+</body>
+</html>
